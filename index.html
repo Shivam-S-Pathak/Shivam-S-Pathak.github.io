@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <form>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application form</title>
-    <link rel="stylesheet" href="formcss.css">
-</head>
-<body>
-    <div class="box"> 
-    <h1 align="center">Application Form</h1>
-    <hr>
-    <h2>Contact information</h2>
-    <p> First Name:* <input type="text" name="" id="" required placeholder="Enter your first name">
-    Middle name: <input type="text" name="" id=" placeholder="Enter your middle name">
-    last Name:* m mx<input type="text" name="" id="" required placeholder="Enter your last name"><br>
-</p>
-    <fieldset>
-        <legend>Gender</legend>
-    <p>
-         <input type="radio" name="gender" id="male"><b>Male</b> <br><input type="radio" name="gender" id="female"><b>Female</b><br>  <input type="radio" name="gender" id="other"><b>other</b>
-    </fieldset>
-    Country:
-    <select name="country" id="country">
-        <option value="">--Select your country--</option>
-        <option value="China">China</option>
-        <option value="America">America</option>
-        <option value="India">India</option>
-        <option value="Britain">Britain</option>
-        <option value="Italy">Italy</option>
-    </select>
-    Contact number: <input type="text" name="mobile_number" id="mobile_number">
-</p>
-<p>
-    Email:* <input type="email" name="email" id="Email" required placeholder="Example@id.com"> <rb></rb>Address: <input type="text" name="address" id="address" placeholder="Enter your address">
-</p>
-<p>zipcode: <input type="text" name="code" id="code"></p>
-<hr>
-<h2>Payment Information</h2>
-<p>
-    <b><p>Please select your card type</p></b>
-    Card Type:* 
-    <select name="card_type" id="card_type" required>
-        <option value="">--Select your card type--</option>
-        <option value="visa">visa</ option>
-        <option value="Master_card">Master Card</option>
-        <option value="Rupay">Rupay</option>
-        <option value="American_express">American express</option>
-    </select>
-</p> 
-<p>
-    card number:* <input type="text" name="card_number" id="card_number" required>
-</p>
-<p>Expiery Date:* 
-    <input type="date" name="date" id="date" required>
-<p>
-    cvv:* <input type="password" name="cvv" id="cvv" required>
-</p>
+<form>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application form</title>
+        <link rel="stylesheet" href="formcss.css">
+    </head>
+<div class="container">
+    <body>
+        <h1 align="center">Application Form</h1>
+        <hr>
+        <div class="box">
+            <h2>Contact information:</h2> 
+            <br>First Name:*<br>
+                <input type="text" name="" id="" required placeholder="Enter your first name"><br>
+                Middle name:<br> <input type="text" name="" id=" placeholder=" Enter your middle name"><br>
+                last Name:*<br><input type="text" name="" id="" required placeholder="Enter your last name"><br>
+                <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <br>
+                <input type="radio" name="gender" id="male"><b>Male</b> <br><input type="radio" name="gender"
+                    id="female"><b>Female</b><br> <input type="radio" name="gender" id="other"><b>other</b><br>
+            </fieldset>
+            Country:<br>
+            <select name="country" id="country">
+                <option value="">--Select your country--</option>
+                <option value="China">China</option>
+                <option value="America">America</option>
+                <option value="India">India</option>
+                <option value="Britain">Britain</option>
+                <option value="Italy">Italy</option>
+            </select><br>
+            Contact number:<br> <input type="text" name="mobile_number" id="mobile_number"><br>
+            Email:* <br><input type="email" name="email" id="Email" required placeholder="Example@id.com"> <br>
+            Address:<br> <input type="text" name="address" id="address" placeholder="Enter your address"><br>
+            zipcode:<br> <input type="text" name="code" id="code"><br>
+        </div>
+            <hr>
+            <div class="box">
+            <h2>Payment Information</h2>
+                Card Type:* <br>
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select your card type--</option>
+                    <option value="visa">visa</ option>
+                    <option value="Master_card">Master Card</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="American_express">American express</option>
+                </select>
+                <br>
+                card number:*<br> <input type="text" name="card_number" id="card_number" required>
+                <br>
+                Expiery Date:* <br>
+                <input type="date" name="date" id="date" required>
+                <br>
+                cvv:*<br> <input type="password" name="cvv" id="cvv" required>
+                <br>
 
-    <input type="submit" value="PAY NOW">
+                <button type="submit">PAY NOW</button>
+            </div>
+    </body>
 </div>
-</body>
 </form>
 </html>
