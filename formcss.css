@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background-color:rgb(66, 157, 149) ;
+    padding: 10px;
+    border:2px solid rgb(100, 138, 220);
+border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+select,textarea{
+    width:25%;
+    background-color: rgb(193, 236, 231);
+    padding: 9px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    margin:10px;
+
+}
+fieldset{
+    width:200px;
+    background-color:rgb(193, 236, 231);
+    border-radius: 10px;
+    border:none;
+}
+input[type="submit"]{
+    cursor:pointer;
+    width:100%;
+    background-color:green;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding:9px;
+}
+input[type="submit"]:hover{
+    background-color:red;
+}
